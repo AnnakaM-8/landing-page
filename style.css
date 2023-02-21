@@ -10,13 +10,13 @@
     font-size: 24px;
     display: flex;
     align-items: center;
-    margin-left: 200px;
+    margin-left: 300px;
 }
 ul {
     list-style-type: none;
     display: flex;
     gap: 15px;
-    margin-right: 200px;
+    margin-right: 300px;
 }
 .hero {
     font-family: roboto;
@@ -24,6 +24,22 @@ ul {
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
-    padding: 50px;
+    padding: 50px;  
 }
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin-left: 250px;
+    align-items: flex-start;
+    
+}
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(174, 174, 174);
+    width: 500px;
+    margin-right: 250px;
 
+}
