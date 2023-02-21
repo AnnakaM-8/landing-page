@@ -18,5 +18,12 @@ ul {
     gap: 15px;
     margin-right: 200px;
 }
-
+.hero {
+    font-family: roboto;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
 
