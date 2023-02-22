@@ -43,6 +43,7 @@ ul {
     margin-right: 250px;
 }
 .image img {
+    display: flex;
     height: 300px;
     width: auto;
 }
@@ -65,7 +66,17 @@ img {
     justify-content: center;
     gap: 52px;
     text-align: center;
+    margin-bottom: 100px;
 }
 .info{
     max-width: 200px;
+}
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quote p {
+    margin: 100px 450px
 }
