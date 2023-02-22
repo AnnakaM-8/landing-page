@@ -39,7 +39,7 @@ ul {
     justify-content: center;
     align-items: center;
     background-color:#1F2937;
-    width: 500px;
+    width: 450px;
     margin-right: 250px;
 }
 .image img {
@@ -74,9 +74,16 @@ img {
 .quote {
     background-color: #e5e7eb;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
 }
 .quote p {
-    margin: 100px 450px
+    margin: 100px 450px 20px 450px;
+}
+.author {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right: 500px;
+    margin-bottom: 100px;
 }
